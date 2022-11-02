@@ -1,0 +1,23 @@
+body{
+    background-color:#212c41;
+    color: white;
+}
+
+#trendcontainer{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+#trendcontainer >div{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#topbar{
+    background-color: #0c111b;
+    padding: 10px 0 10px 50px;
+    margin-bottom: 10px;
+}

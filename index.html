@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTSTAR</title>
+    <link rel="stylesheet" href="./Style/style.css">
+</head>
+
+<body>
+    
+    <div id="topbar">
+        <!-- <h1>Hotstar</h1> -->
+        <a href="./index.html"><img src="https://secure-media.hotstarext.com/web-assets/prod/images/brand-logos/disney-hotstar-logo-dark.svg" id="logo" alt=""></a>
+        <div>
+            <input type="text" placeholder="Search movie here..." oninput="debounce(findMovies, 1000)" id="searchMovie">
+            
+        </div>
+            
+        <div id="movieList"></div>
+    </div>
+    <div id="nav-bar">
+        <a id="trending" href="./trending.html">Trending Movies</a>
+    </div>
+    
+    <div id="container"></div>
+    <!-- <div id="errorDiv"></div> -->
+    <div id="mContainer"></div>
+   
+</body>
+</html>
+<script src="./Script/index.js"></script>
+<!-- <script src="./Script/trending.js"></script> -->

@@ -1,0 +1,139 @@
+
+body{
+    background-color:#212c41;
+    color: white;
+}
+#nav-bar > a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#nav-bar > a:hover{
+    color: #848b9a;
+}
+#nav-bar{
+    margin: 10px 0 20px 0;
+    background-color: #0c111b;
+    padding: 20px;
+}
+  #mContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+    /* visibility: visible; */
+    color: white;
+}
+
+#container img{
+    width: 60%;
+    height: 400px;
+    display: block;
+    margin: auto;
+} 
+
+#topbar{
+    text-align: center;
+    padding: 40px 0;
+    background-color: #0c111b;
+    margin-bottom: 30px;
+}
+
+h1{
+    color: lavender ;
+}
+input{
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 262px;
+}
+
+#errorDiv{
+    width: 60%;
+    margin: auto;
+}
+
+#topbar{
+    position: relative;
+}
+
+#topbar > a >img{
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+#movieList{
+    width: 300px;
+    height: 280px;
+    border: 1px solid black;
+    background-color: #0c111b;
+    color: white;
+    margin: auto;
+    overflow-y: scroll;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 160px;
+    z-index: 99;
+    /* z-index: 10; */ 
+    /* visibility:hidden; */
+    display: none;
+}
+
+#movieList > a > div{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 80px;
+    /* gap:3px; */
+    border: 1px solid black;
+    padding: 6px 0;
+    font-weight: bold;
+}
+
+#movieList > a > div > p{
+    align-self: center;
+}
+#movieList > a > div:hover{
+    background-color: #212c41;
+}
+#movieList > a > div > img{
+    width: 100%;
+    height: 100%;    
+}
+
+#mdetails{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: auto;
+    gap:30px;
+
+}
+
+#mdetails > div > h2{
+    font-size: 30px;
+    width: 80%;
+}
+#mdetails > div > h2 > span{
+    font-size: 15px;
+    color: white;
+    background-color: rgb(239, 108, 108);
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+#mdetails > div > h2+ul{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: gray;
+}
+
+#mdetails > div > p {
+    width: 70%;
+}
